@@ -1,0 +1,58 @@
+{
+  "name": "ionic-hello-world",
+  "author": {
+      "name": "Nic Raboy",
+      "url": "https://www.nraboy.com"
+  },
+  "homepage": "http://www.couchbase.com",
+  "private": true,
+  "main": "electron.js",
+  "scripts": {
+    "ionic:build": "ionic-app-scripts build",
+    "ionic:serve": "ionic-app-scripts serve",
+    "electron": "ionic-app-scripts build; electron ."
+  },
+  "dependencies": {
+    "@angular/common": "2.2.1",
+    "@angular/compiler": "2.2.1",
+    "@angular/compiler-cli": "2.2.1",
+    "@angular/core": "2.2.1",
+    "@angular/forms": "2.2.1",
+    "@angular/http": "2.2.1",
+    "@angular/platform-browser": "2.2.1",
+    "@angular/platform-browser-dynamic": "2.2.1",
+    "@angular/platform-server": "2.2.1",
+    "@ionic/storage": "1.1.6",
+    "@types/node": "^6.0.52",
+    "@types/uuid": "^2.0.29",
+    "ionic-angular": "2.0.0-rc.4",
+    "ionic-native": "2.2.11",
+    "ionicons": "3.0.0",
+    "pouchdb": "^6.1.0",
+    "rxjs": "5.0.0-beta.12",
+    "uuid": "^3.0.1",
+    "zone.js": "0.6.26"
+  },
+  "devDependencies": {
+    "@ionic/app-scripts": "0.0.47",
+    "typescript": "2.0.9",
+    "electron": "^1.4.1"
+  },
+  "cordovaPlugins": [
+    "cordova-plugin-console",
+    "cordova-plugin-whitelist",
+    "cordova-plugin-statusbar",
+    "cordova-plugin-device",
+    "cordova-plugin-splashscreen",
+    "ionic-plugin-keyboard"
+  ],
+  "cordovaPlatforms": [
+    "ios",
+    {
+      "platform": "ios",
+      "version": "",
+      "locator": "ios"
+    }
+  ],
+  "description": "Couchbase with Electron, PouchDB, Angular 2, and Ionic 2 example"
+}

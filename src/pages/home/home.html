@@ -1,0 +1,20 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            Electron w/ Couchbase
+        </ion-title>
+        <ion-buttons end>
+            <button ion-button icon-only (click)="insert()">
+                <ion-icon name="add"></ion-icon>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-list>
+        <ion-item *ngFor="let item of items">
+            {{ item.title }}
+        </ion-item>
+    </ion-list>
+</ion-content>

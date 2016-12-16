@@ -1,0 +1,19 @@
+{
+    "log":["CRUD+", "REST+", "Changes+", "Attach+"],
+    "databases": {
+        "example": {
+            "server":"walrus:",
+            "sync":`
+                function (doc) {
+                    channel (doc.channels);
+                }
+            `,
+            "users": {
+                "GUEST": {
+                    "disabled": false,
+                    "admin_channels": ["*"]
+                }
+            }
+        }
+    }
+}
