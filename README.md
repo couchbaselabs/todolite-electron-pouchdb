@@ -2,6 +2,8 @@
 
 An example project for creating a desktop application that synchronizes its data with Couchbase Server and other devices or platforms.  The example uses Couchbase as the remote database, PouchDB as the local database, Electron as the desktop container, Angular 2 for the logic, and Ionic 2 for the UI layer.
 
+![Electron with Couchbase](electron-ionic2-cbmobile.gif "Electron with Couchbase")
+
 ## Installation and Configuration
 
 After downloading the project, execute the following to install all the project dependencies:
